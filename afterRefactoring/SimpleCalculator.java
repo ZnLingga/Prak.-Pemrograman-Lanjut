@@ -18,8 +18,7 @@ public class SimpleCalculator {
         displayResult(result);
     }
 
-    // Disini, setelah diextract, lalu langsung direname sesuai dengan kebutuhan
-    // Extract Method: Input angka
+
     private int getInput(String prompt) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(prompt);
