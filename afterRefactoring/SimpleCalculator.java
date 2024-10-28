@@ -25,7 +25,6 @@ public class SimpleCalculator {
         return scanner.nextInt();
     }
 
-    // Extract Method: Mendapatkan operasi
     private char getOperation() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose operation: (+, -, *, /)");
